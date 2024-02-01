@@ -1,0 +1,99 @@
+.show-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FDF0D1;
+  }
+  
+  .show-details {
+    background-color: #AC7D88;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .show-details h3 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  
+  .show-details p {
+    font-family: "Avenir", sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .show-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .stats li {
+    font-family: "Avenir", sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .loading-text {
+    font-family: "Avenir", sans-serif;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .show-details {
+      padding: 20px;
+    }
+  }
+  .show-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .show-details {
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .modal button {
+    margin-top: 10px;
+  }
